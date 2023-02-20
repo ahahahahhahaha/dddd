@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+	margin: 0;
+}
+.background{
+	position:absolute;
+	top: 0;
+	z-index: -2;
+	background-color: #bdd3ce;
+	width: 100%;
+	height: 600px;
+}
+#header-bg {
+	background-color: #bdd3ce;
+	width: 100%;
+	height: 75px;
+}
+
+#header{
+	position: absolute;
+	top: 0;
+	height: 75px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 40%;
+	margin-left: 30%;
+	align-items: center;
+	
+}
+
+#header div{
+	padding: 10px;
+	border-radius: 20px;
+	transition-duration: .2s;
+}
+
+#header div:hover {
+	background-color: white;
+}
+.heading{
+	font-family: ubuntu;
+	font-size: 20px;
+
+	
+}
+#name {
+	font-family: ubuntu;
+	font-weight: bold;
+	position: absolute;
+	left: -25vw;
+	font-size:30px;
+}
+
+#main{
+	width: 100%;
+	height: 300px;
+}
+
+#main span:first-child {
+	display: inline-block;
+	margin-top: 100px;
+}
+
+.big{
+	font-family: ubuntu;
+	font-weight: bold;
+	color: black;
+	font-size: 45px;
+	margin-left: 15%;
+}
+#small{
+	display: inline-block;
+	font-family: ubuntu;
+	font-size: 25px;
+	color: gray;
+	margin-left: 15%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+}
+#button{
+	font-family: ubuntu;
+	margin-left: 15%;
+	width: 250px;
+	color:white;
+	background-color: #2f3132;
+	padding: 10px 20px 10px 20px;
+	border: 2px solid black;
+	transition-duration: .2s;
+	border-radius: 2px;
+}
+
+#button:hover {
+	background-color: #bdd3ce;
+	color:black;
+}
+
+#head3{
+	position: absolute;
+	top: 70px;
+	left: 800px;
+	z-index: -1;
+	width: 700px;
+	opacity: 1;
+}
+#i{
+	font-family: ubuntu;
+	font-size: 30px;
+}
+
+#maice{
+	font-family: ubuntu;
+	font-size:30px;
+}
+#main2{
+	margin-left:6%;	
+	margin-top:150px;
+	display: flex;
+	width:  90%;
+	height: 1000px;
+}
+#bigcont{
+	flex-direction: column;
+	display:flex;
+	width:100%;
+	height: 900px;
+	margin-top: 300px;
+	z-index: -0;
+}
+#pl{
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
+	width: 90%;
+	height:600px;
+	background-color: #f5f5f5;
+	position: relative;
+	align-items: center;
+}
+#twopeace{
+	justify-content:space-evenly;
+	display: flex;
+	 flex-direction: row;
+	width:100%;
+	height:450px;
+}
+#firstpeace{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	background-color: #f5f5f5;
+margin-top: 20px;
+margin-bottom: 10px;
+	width:42.5%;
+	height:400px;
+}
+#secondpeace{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	background-color: #f5f5f5;
+	height:400px;
+	margin-top:  20px;
+	width: 42.5%;
+}
+#largepeace{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	background-color: #f5f5f5;
+	display: flex;
+	margin-top: 300px;
+	height: 900px;
+	width:45%;
+}
+#keyboard{
+	height:410px;
+	width:100%;
+}
+#headphones{
+	margin-top:250px;
+	margin-left: 20px;
+	width: 500px;
+	height: 400px;
+}
+#micer{
+	height:350px;
+	width:500px;
+	
+}
+#ola{
+	width:400px;
+	height: 350px;
+	margin-left: 35px;
+}
+#textcatalog{
+	font-family: ubuntu;
+	font-size: 20px;
+	font-weight: bold;
+}
+#textcatalog1{
+	font-family: ubuntu;
+	font-size: 20px;
+	font-weight: bold;
+}
+#textcatalog2{
+
+	font-family: ubuntu;
+	font-size: 20px;
+	font-weight: bold;
+}
+#textcatalog3{
+
+	font-family: ubuntu;
+	font-size: 20px;
+	font-weight: bold;
+}
